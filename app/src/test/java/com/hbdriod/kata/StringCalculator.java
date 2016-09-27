@@ -1,5 +1,7 @@
 package com.hbdriod.kata;
 
+import java.util.StringTokenizer;
+
 /**
  * Created by SOEOSSA on 27/09/2016.
  */
@@ -10,10 +12,12 @@ public class StringCalculator {
     }
 
     static int add(String myString){
-        if (myString.isEmpty()){
-            return 0;
-        } else {
-            return Integer.valueOf(myString);
-        }
+        int valeurRetour = 0;
+            StringTokenizer stringTokenizer = new StringTokenizer(myString, ",");
+            while (stringTokenizer.hasMoreTokens()) {
+                valeurRetour += Integer.valueOf(stringTokenizer.nextToken());
+            }
+
+        return valeurRetour;
     }
 }

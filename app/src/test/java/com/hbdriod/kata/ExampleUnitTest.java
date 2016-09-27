@@ -22,4 +22,9 @@ public class ExampleUnitTest {
     public void shouldReturnAddOneValueFromString() throws Exception{
         assertEquals(3,StringCalculator.add(new String("3")));
     }
+
+    @Test
+    public void shouldReturnSumValuesFromString() throws Exception {
+        assertEquals(5,StringCalculator.add(new String("1,4")));
+    }
 }
