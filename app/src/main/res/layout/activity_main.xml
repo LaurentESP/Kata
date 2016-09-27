@@ -9,6 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="50dp"
+    android:background="@color/DarkCyan"
 
     tools:context="com.hbdriod.kata.MainActivity">
 
@@ -22,6 +23,7 @@
         android:paddingRight="5dp"
         android:paddingTop="5dp"
         android:layout_marginBottom="20dp"
+        android:background="@color/LightSmoke"
         />
 
     <Button
@@ -43,6 +45,7 @@
         android:paddingRight="5dp"
         android:paddingTop="5dp"
         android:text="Résultat"
+        android:background="@color/LightSmoke"
         />
 
 </LinearLayout>

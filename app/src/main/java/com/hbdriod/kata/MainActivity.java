@@ -16,12 +16,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout linearLayout = (LinearLayout)findViewById(R.id.main_layout);
-        linearLayout.setBackgroundColor(Color.BLUE);
-        EditText editText = (EditText) findViewById(R.id.text_edit);
-        editText.setBackgroundColor(Color.WHITE);
-
-        TextView textView = (TextView) findViewById(R.id.text);
-        textView.setBackgroundColor(Color.WHITE);
     }
 }
