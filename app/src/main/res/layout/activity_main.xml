@@ -14,7 +14,7 @@
     tools:context="com.hbdriod.kata.MainActivity">
 
     <EditText
-        android:id="@+id/text_edit"
+        android:id="@+id/edit_text_0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Tapez ici votre calcul"
@@ -37,7 +37,7 @@
         />
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/text_view_0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="5dp"

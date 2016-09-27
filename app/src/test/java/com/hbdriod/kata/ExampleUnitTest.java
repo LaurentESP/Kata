@@ -27,4 +27,9 @@ public class ExampleUnitTest {
     public void shouldReturnSumValuesFromString() throws Exception {
         assertEquals(5,StringCalculator.add(new String("1,4")));
     }
+
+    @Test
+    public void shouldReturnSumValuesWithFromStringWithEnter() throws Exception {
+        assertEquals(6,StringCalculator.add(new String("1\n2,3")));
+    }
 }

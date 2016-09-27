@@ -13,7 +13,7 @@ public class StringCalculator {
 
     static int add(String myString){
         int valeurRetour = 0;
-            StringTokenizer stringTokenizer = new StringTokenizer(myString, ",");
+            StringTokenizer stringTokenizer = new StringTokenizer(myString, ",\n");
             while (stringTokenizer.hasMoreTokens()) {
                 valeurRetour += Integer.valueOf(stringTokenizer.nextToken());
             }
