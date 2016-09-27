@@ -17,4 +17,9 @@ public class ExampleUnitTest {
     public void shouldReturnZeroWhenStringNull() throws Exception{
         assertEquals(0, StringCalculator.add(new String("")));
     }
+
+    @Test
+    public void shouldReturnAddOneValueFromString() throws Exception{
+        assertEquals(3,StringCalculator.add(new String("3")));
+    }
 }

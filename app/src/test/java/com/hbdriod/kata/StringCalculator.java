@@ -10,6 +10,10 @@ public class StringCalculator {
     }
 
     static int add(String myString){
-        return 0;
+        if (myString.isEmpty()){
+            return 0;
+        } else {
+            return Integer.valueOf(myString);
+        }
     }
 }
